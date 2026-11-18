@@ -1,0 +1,21 @@
+{
+	"name": "draftbase-example-portfolio",
+	"private": true,
+	"type": "module",
+	"engines": {
+		"node": ">=22.23.4"
+	},
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"seed": "node --env-file=.env scripts/seed.mjs"
+	},
+	"dependencies": {
+		"@astrojs/sitemap": "^3.7.5",
+		"@draftbase/renderer": "^0.3.2",
+		"@draftbase/sdk": "^0.2.3",
+		"astro": "^7.4.12",
+		"react": "^19.0.0"
+	}
+}
